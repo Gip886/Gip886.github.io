@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>2020.7.7随笔记录</title>
+      <link href="/2020/07/07/2020.7.7%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/"/>
+      <url>/2020/07/07/2020.7.7%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="随笔记录"><a href="#随笔记录" class="headerlink" title="随笔记录"></a>随笔记录</h1><ul><li>img标签中，我们通过<code>vertical-align:middle</code>属性<strong>去掉图片底侧默认的3像素空白缝隙</strong>，还有一种方法可以达到效果，那就是<code>display: block</code>。</li><li><code>s</code>是删除线，<code>i</code>和<code>em</code>是斜体。</li><li>右侧部分文字的结构：ul中放了九个li，用来存放文字。代码快捷键是<code>ul&gt;li*9</code>（符号<code>&gt;</code>是包含的关系）。</li><li><a id="more"></a></li><li><img src="http://img.smyhvae.com/20180119_1503.png" alt=""></li></ul><p>上图所示，我们发现，每个li之间都有<code>1像素宽、12像素高的间隔线</code>，这个也是用li做的。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.fr</span> <span class="selector-class">.line</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">1px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">12px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#ddd</span>;</span><br><span class="line">    <span class="attribute">margin-top</span>: <span class="number">9px</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li><p>“搜索”按钮：当我们把鼠标放在“搜索”上的时候， 发现鼠标变成了小手，这里是用到了<code>cursor</code>属性。</p><p><code>cursor</code>有如下属性值：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">cursor</span>: <span class="selector-tag">pointer</span>;          <span class="comment">/*变成小手*/</span></span><br><span class="line"><span class="selector-tag">cursor</span>: <span class="selector-tag">text</span>;             <span class="comment">/*变成光标*/</span></span><br><span class="line"><span class="selector-tag">cursor</span>: <span class="selector-tag">move</span>;             <span class="comment">/*变成四角箭头*/</span></span><br><span class="line"><span class="selector-tag">cursor</span>: <span class="selector-tag">default</span>;          <span class="comment">/*变成默认的箭头*/</span></span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>01-JS简介</title>
       <link href="/2020/07/07/01-JS%E7%AE%80%E4%BB%8B/"/>
       <url>/2020/07/07/01-JS%E7%AE%80%E4%BB%8B/</url>
