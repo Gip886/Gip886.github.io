@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>01-认识Web和Web标准</title>
+      <link href="/2020/07/07/01-%E8%AE%A4%E8%AF%86Web%E5%92%8CWeb%E6%A0%87%E5%87%86/"/>
+      <url>/2020/07/07/01-%E8%AE%A4%E8%AF%86Web%E5%92%8CWeb%E6%A0%87%E5%87%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Web、网页、浏览器"><a href="#Web、网页、浏览器" class="headerlink" title="Web、网页、浏览器"></a>Web、网页、浏览器</h2><h3 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h3><p>Web（World Wide Web）即全球广域网，也称为万维网。</p><p>我们常说的<code>Web端</code>就是网页端。</p><a id="more"></a><h3 id="网页"><a href="#网页" class="headerlink" title="网页"></a>网页</h3><p><strong>网页是构成网站的基本元素</strong>。网页主要由文字、图像和超链接等元素构成。当然，除了这些元素，网页中还可以包含音频、视频以及Flash等。</p><p>我们在浏览器上输入网址后，打开的任何一个页面，都是属于网页。</p><h3 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h3><p>浏览器是网页运行的平台，常见的浏览器有谷歌（Chrome）、Safari、火狐（Firefox）、IE、Edge、Opera等。</p><p>关于浏览器的详细介绍，可以看下一篇文章：《<a href="https://github.com/qianguyihao/Web/blob/master/01-html/02-%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E4%BB%8B%E7%BB%8D.md" target="_blank" rel="noopener">浏览器的介绍</a>》</p><h2 id="Web标准"><a href="#Web标准" class="headerlink" title="Web标准"></a>Web标准</h2><h3 id="W3C组织"><a href="#W3C组织" class="headerlink" title="W3C组织"></a>W3C组织</h3><p><strong>W3C</strong>：万维网联盟组织，用来制定web标准的机构（组织）。</p><p>W3C 万维网联盟是国际最著名的标准化组织。1994年成立后，至今已发布近百项相关万维网的标准，对万维网发展做出了杰出的贡献。</p><p>W3C 组织就类似于现实世界中的联合国。</p><p>为什么要遵循WEB标准呢？因为很多浏览器的浏览器内核不同，导致页面解析出来的效果可能会有差异，给开发者增加无谓的工作量。因此需要指定统一的标准。</p><h3 id="Web-标准"><a href="#Web-标准" class="headerlink" title="Web 标准"></a>Web 标准</h3><p><strong>Web标准</strong>：制作网页要遵循的规范。</p><p>Web标准不是某一个标准，而是由W3C组织和其他标准化组织制定的一系列标准的集合。</p><p><strong>1、Web标准包括三个方面</strong>：</p><ul><li><p>结构标准（HTML）：用于对网页元素进行整理和分类。</p></li><li><p>表现标准（CSS）：用于设置网页元素的版式、颜色、大小等外观样式。</p></li><li><p>行为标准（JS）：用于定义网页的交互和行为。</p></li></ul><p>根据上面的Web标准，可以将 Web前端分为三层，如下。</p><p><strong>2、Web前端分三层</strong>：</p><ul><li>HTML（HyperText Markup Language）：超文本标记语言。从<strong>语义</strong>的角度描述页面的<strong>结构</strong>。相当于人的身体组织结构。</li><li>CSS（Cascading Style Sheets）：层叠样式表。从<strong>审美</strong>的角度美化页面的<strong>样式</strong>。相当于人的衣服和打扮。</li><li>JS：JavaScript。从<strong>交互</strong>的角度描述页面的<strong>行为</strong>。相当于人的动作，让人有生命力。</li></ul><p><strong>3、打个比方</strong>：（拿黄渤举例）</p><p>HTML 相当于人的身体组织结构：</p><p><img src="http://img.smyhvae.com/20200322_1250.png" alt=""></p><p>CSS 相当于人的衣服和打扮：</p><p><img src="http://img.smyhvae.com/20200322_1251.png" alt=""></p><p>JS 相当于人的行为：</p><p><img src="http://img.smyhvae.com/20200322_2220.gif" alt=""></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>02-浏览器的介绍</title>
+      <link href="/2020/07/07/02-%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2020/07/07/02-%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="常见的浏览器"><a href="#常见的浏览器" class="headerlink" title="常见的浏览器"></a>常见的浏览器</h2><p>浏览器是网页运行的平台，常见的浏览器有谷歌（Chrome）、Safari、火狐（Firefox）、IE、Edge、Opera等。如下图所示：</p><p><img src="http://img.smyhvae.com/20191204_1900.png" alt=""></p><p>我们重点需要学习的是 Chrome 浏览器。</p><a id="more"></a><h2 id="浏览器的市场占有份额"><a href="#浏览器的市场占有份额" class="headerlink" title="浏览器的市场占有份额"></a>浏览器的市场占有份额</h2><p>浏览器的市场占有份额：<a href="https://tongji.baidu.com/research/site?source=index#browser" target="_blank" rel="noopener">https://tongji.baidu.com/research/site?source=index#browser</a></p><p><img src="http://img.smyhvae.com/20200322_1058.png" alt=""></p><p>上面这张图的统计时间是2020年2月。</p><h2 id="浏览器的组成"><a href="#浏览器的组成" class="headerlink" title="浏览器的组成"></a>浏览器的组成</h2><p>浏览器分成两部分：</p><ul><li><p>1、渲染引擎（即：浏览器内核）</p></li><li><p>2、JS 引擎</p></li></ul><h3 id="1、渲染引擎（浏览器内核）"><a href="#1、渲染引擎（浏览器内核）" class="headerlink" title="1、渲染引擎（浏览器内核）"></a>1、渲染引擎（浏览器内核）</h3><p>浏览器所采用的「渲染引擎」也称之为「浏览器内核」，用来解析 HTML与CSS。渲染引擎决定了浏览器如何显示网页的内容以及页面的格式信息。</p><p><strong>渲染引擎是浏览器兼容性问题出现的根本原因。</strong></p><p>渲染引擎的英文叫做 Rendering Engine。通俗来说，它的作用就是：读取网页内容，计算网页的显示方式并显示在页面上。</p><p>常见浏览器的内核如下：</p><table><thead><tr><th align="center">浏览器</th><th align="center">内核</th></tr></thead><tbody><tr><td align="center">chrome</td><td align="center">Blink</td></tr><tr><td align="center">欧鹏</td><td align="center">Blink</td></tr><tr><td align="center">360安全浏览器</td><td align="center">Blink</td></tr><tr><td align="center">360极速浏览器</td><td align="center">Blink</td></tr><tr><td align="center">Safari</td><td align="center">Webkit</td></tr><tr><td align="center">Firefox 火狐</td><td align="center">Gecko</td></tr><tr><td align="center">IE</td><td align="center">Trident</td></tr></tbody></table><p>备注：360的浏览器，以前使用的IE浏览器的Trident内核，但是现在已经改为使用 chrome 浏览器的 Blink内核。</p><p>另外，移动端的浏览器内核是什么？大家可以自行查阅资料。</p><h3 id="2、JS-引擎"><a href="#2、JS-引擎" class="headerlink" title="2、JS 引擎"></a>2、JS 引擎</h3><p>也称为 JS 解释器。 用来解析网页中的JavaScript代码，对其处理后再运行。</p><p>浏览器本身并不会执行JS代码，而是通过内置 JavaScript 引擎(解释器) 来执行 JS 代码 。JS 引擎执行代码时会逐行解释每一句源码（转换为机器语言），然后由计算机去执行。所以 JavaScript 语言归为脚本语言，会逐行解释执行。</p><p>常见浏览器的 JS 引擎如下：</p><table><thead><tr><th align="center">浏览器</th><th align="left">JS 引擎</th></tr></thead><tbody><tr><td align="center">chrome / 欧鹏</td><td align="left">V8</td></tr><tr><td align="center">Safari</td><td align="left">Nitro</td></tr><tr><td align="center">Firefox 火狐</td><td align="left">SpiderMonkey（1.0-3.0）/ TraceMonkey（3.5-3.6）/ JaegerMonkey（4.0-）</td></tr><tr><td align="center">Opera</td><td align="left">Linear A（4.0-6.1）/ Linear B（7.0-9.2）/ Futhark（9.5-10.2）/ Carakan（10.5-）</td></tr><tr><td align="center">IE</td><td align="left">Trident</td></tr></tbody></table><p>参考链接：</p><ul><li><a href="https://juejin.im/post/5ada727c518825670b33a584" target="_blank" rel="noopener">主流浏览器内核及JS引擎</a></li></ul><h2 id="浏览器工作原理"><a href="#浏览器工作原理" class="headerlink" title="浏览器工作原理"></a>浏览器工作原理</h2><blockquote><p>这一小段有些深入，小白可以暂时跳过，以后再来看。</p></blockquote><p><img src="http://img.smyhvae.com/20180124_1700.png" alt=""></p><p>1、User Interface  用户界面，我们所看到的浏览器</p><p>2、Browser engine  浏览器引擎，用来查询和操作渲染引擎</p><p>3、Rendering engine 用来显示请求的内容，负责解析HTML、CSS</p><p>4、Networking   网络，负责发送网络请求</p><p>5、JavaScript Interpreter(解析者)   JavaScript解析器，负责执行JavaScript的代码</p><p>6、UI Backend   UI后端，用来绘制类似组合框和弹出窗口</p><p>7、Data Persistence(持久化)  数据持久化，数据存储  cookie、HTML5中的sessionStorage</p><p>参考链接：</p><ul><li><a href="https://www.2cto.com/kf/201202/118111.html" target="_blank" rel="noopener">https://www.2cto.com/kf/201202/118111.html</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/07/07/hello-world/"/>
+      <url>/2020/07/07/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+  
+</search>
