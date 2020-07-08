@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>233</title>
+      <link href="/2020/07/08/233/"/>
+      <url>/2020/07/08/233/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/2020/07/08/233/download.jpg" alt></p><p><img src="/2020/07/08/233/555.jpg" alt></p><a id="more"></a><p><img src="/2020/07/08/233/5556.png" alt></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决HEXO网上部署图片如何上传加载</title>
       <link href="/2020/07/08/%E8%A7%A3%E5%86%B3HEXO%E7%BD%91%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%8A%A0%E8%BD%BD/"/>
       <url>/2020/07/08/%E8%A7%A3%E5%86%B3HEXO%E7%BD%91%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%8A%A0%E8%BD%BD/</url>
       
-        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>hexo加载博客，由于博客是markdown格式，里面对于图片的引用是本机的<strong>绝对地址</strong>，所以这就导致了如何把图片同时部署到github网站上。网上百度，发现有解决方案，但是也搞了我很久，主要问题是hexo如何根据地址去找静态资源问题，和静态资源如何打包整理上传网站上面。</p><a id="more"></a><p>###方法一</p><p>在source创建文件夹<code>img</code>,然后将图片复制到此，markdown编辑器里面引用书写即可，（<strong>注意要相对地址引用</strong>）</p><p>本人使用的编辑器是便捷轻量的 <strong>Typora</strong>   ![](解决HEXO网上部署图片如何上传加载/批注 2020-07-08 165147.png)</p><p>引用方式：<code>![描述](../img/图片名字.png)</code></p><p>这种方式对于管理不同文章图片太杂乱，起不到整理分类作用</p><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>首先在本地hexo目录里面找_config.yml这个文件。找到post_asset_folder将其改为true。然后Git Bash进入该目录，执行npm install hexo-asset-image –save，如果不行则执行npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org然后执行cnpm" target="_blank" rel="noopener">https://registry.npm.taobao.org然后执行cnpm</a> install hexo-asset-image –save。此时执行hexo new “xxx”会同时在_post文件夹下生成同名文件夹，文件夹里放图片。</p><p><strong>由于新版本HEXO</strong>使得第一安装的插件无效，具体就是映射关系不对，导致网页解析不出来图片地址或者地址解析错误，所以经过测验可以安装下面老版本的插件</p><p>cnpm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save。因为用文章开头提的方法安装的1.0.0版本的hexo-asset-image插件，此方法安装的0.0.5版本的hexo-asset-image插件。两者映射关系不同。</p><p>安装完后即可使用，先<code>hexo n 文件名</code>创建文件，同时生成同名文件夹，即可开始写作！</p><p>然后以后引用图片方式<code>![描述](/文件名/图片名字.png)</code>，可以在软件设置后地址根目录方便插入图片，根目录就是posts文件下</p><h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><p>这个很简单，就是利用图床网站，将自己的图片上传网路，同时生成URL，然后在markdow里面引用这个地址就可以了，但是新浪图床用不了，其他的好像也不行了，如果可以<strong>VPN</strong> 就可以用用谷歌的服务。</p><p>实在不行就把图片上传到印象笔记，然后点分享，里面有个查看图片，把那个图片地址复制过来也可以，不过及其麻烦，<strong>个人还是推荐方法二</strong> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>hexo加载博客，由于博客是markdown格式，里面对于图片的引用是本机的<strong>绝对地址</strong>，<a id="more"></a></p><p>所以这就导致了如何把图片同时部署到github网站上。网上百度，发现有解决方案，但是也搞了我很久，主要问题是hexo如何根据地址去找静态资源问题，和静态资源如何打包整理上传网站上面</p><p>###方法一</p><p>在source创建文件夹<code>img</code>,然后将图片复制到此，markdown编辑器里面引用书写即可，（<strong>注意要相对地址引用</strong>）</p><p>本人使用的编辑器是便捷轻量的 <strong>Typora</strong></p><p>   <img src="/2020/07/08/%E8%A7%A3%E5%86%B3HEXO%E7%BD%91%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%8A%A0%E8%BD%BD/001.png" alt></p><p>引用方式：<code>![描述](../img/图片名字.png)</code></p><p>这种方式对于管理不同文章图片太杂乱，起不到整理分类作用</p><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>首先在本地hexo目录里面找_config.yml这个文件。找到post_asset_folder将其改为true。然后Git Bash进入该目录，执行npm install hexo-asset-image –save，如果不行则执行npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org然后执行cnpm" target="_blank" rel="noopener">https://registry.npm.taobao.org然后执行cnpm</a> install hexo-asset-image –save。此时执行hexo new “xxx”会同时在_post文件夹下生成同名文件夹，文件夹里放图片。</p><p><strong>由于新版本HEXO</strong>使得第一安装的插件无效，具体就是映射关系不对，导致网页解析不出来图片地址或者地址解析错误，所以经过测验可以安装下面老版本的插件</p><p>cnpm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save。因为用文章开头提的方法安装的1.0.0版本的hexo-asset-image插件，此方法安装的0.0.5版本的hexo-asset-image插件。两者映射关系不同。</p><p>安装完后即可使用，先<code>hexo n 文件名</code>创建文件，同时生成同名文件夹，即可开始写作！</p><p>然后以后引用图片方式<code>![描述](/文件名/图片名字.png)</code>，可以在软件设置后地址根目录方便插入图片，根目录就是posts文件下</p><h3 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h3><p>这个很简单，就是利用图床网站，将自己的图片上传网路，同时生成URL，然后在markdow里面引用这个地址就可以了，但是新浪图床用不了，其他的好像也不行了，如果可以<strong>VPN</strong> 就可以用用谷歌的服务。</p><p>实在不行就把图片上传到印象笔记，然后点分享，里面有个查看图片，把那个图片地址复制过来也可以，不过及其麻烦，<strong>个人还是推荐方法二</strong> </p>]]></content>
       
       
       <categories>
