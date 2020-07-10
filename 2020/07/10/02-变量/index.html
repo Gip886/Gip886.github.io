@@ -23,30 +23,36 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"./public/search.xml"};
   </script>
 
-  <meta name="description" content="为了更美好的明天而战">
-<meta property="og:type" content="website">
-<meta property="og:title" content="GipBaby270&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="字面量：数字和字符串“字面量”即常量，是固定值，不可改变。看见什么，它就是什么。 字面量有3种：  数字  字符串  布尔字面量   （1）数值的字面量非常简单，写上去就行，不需要任何的符号。例如： 1alert(886);  &#x2F;&#x2F;886是数字，所以不需要加引号。  （2）字符串的字面量也很简单，但一定要加上引号。可以是单词、句子等。例如： 123console.log(&#39;886&#39;);consol">
+<meta property="og:type" content="article">
+<meta property="og:title" content="02-变量">
+<meta property="og:url" content="http://yoursite.com/2020/07/10/02-%E5%8F%98%E9%87%8F/index.html">
 <meta property="og:site_name" content="GipBaby270&#39;s Blog">
-<meta property="og:description" content="为了更美好的明天而战">
+<meta property="og:description" content="字面量：数字和字符串“字面量”即常量，是固定值，不可改变。看见什么，它就是什么。 字面量有3种：  数字  字符串  布尔字面量   （1）数值的字面量非常简单，写上去就行，不需要任何的符号。例如： 1alert(886);  &#x2F;&#x2F;886是数字，所以不需要加引号。  （2）字符串的字面量也很简单，但一定要加上引号。可以是单词、句子等。例如： 123console.log(&#39;886&#39;);consol">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://img.smyhvae.com/20180116_2020.png">
+<meta property="og:image" content="http://img.smyhvae.com/20180116_2040.png">
+<meta property="og:image" content="http://img.smyhvae.com/20200101.png">
+<meta property="article:published_time" content="2020-07-10T05:23:04.458Z">
+<meta property="article:modified_time" content="2020-07-05T14:35:20.000Z">
 <meta property="article:author" content="Gip886">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://img.smyhvae.com/20180116_2020.png">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2020/07/10/02-%E5%8F%98%E9%87%8F/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>GipBaby270's Blog</title>
+  <title>02-变量 | GipBaby270's Blog</title>
   
 
 
@@ -181,9 +187,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -199,10 +206,9 @@
       <meta itemprop="name" content="GipBaby270's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/10/02-%E5%8F%98%E9%87%8F/" class="post-title-link" itemprop="url">02-变量</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          02-变量
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -221,7 +227,14 @@
                 <time title="修改时间：2020-07-05 22:35:20" itemprop="dateModified" datetime="2020-07-05T22:35:20+08:00">2020-07-05</time>
               </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -246,7 +259,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="字面量：数字和字符串"><a href="#字面量：数字和字符串" class="headerlink" title="字面量：数字和字符串"></a>字面量：数字和字符串</h2><p>“字面量”即<strong>常量</strong>，是固定值，不可改变。看见什么，它就是什么。</p>
+        <h2 id="字面量：数字和字符串"><a href="#字面量：数字和字符串" class="headerlink" title="字面量：数字和字符串"></a>字面量：数字和字符串</h2><p>“字面量”即<strong>常量</strong>，是固定值，不可改变。看见什么，它就是什么。</p>
 <p>字面量有3种：</p>
 <ul>
 <li><p>数字</p>
@@ -374,842 +387,46 @@
 <p>扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：</p>
 <p><img src="http://img.smyhvae.com/20200101.png" alt></p>
 
-      
     </div>
 
     
     
     
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续分享！</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="Gip886 微信支付">
+        <p>微信支付</p>
+      </div>
+
+  </div>
+</div>
+
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/09/2020.7.9%E6%9F%A5%E7%9C%8BHexo%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/09/2020.7.9%E6%9F%A5%E7%9C%8BHexo%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/" class="post-title-link" itemprop="url">2020.7.9查看Hexo官方文档</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-09 18:17:52 / 修改时间：18:34:48" itemprop="dateCreated datePublished" datetime="2020-07-09T18:17:52+08:00">2020-07-09</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/" itemprop="url" rel="index"><span itemprop="name">hexo网站部署</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>13k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>12 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="入门简介"><a href="#入门简介" class="headerlink" title="入门简介"></a>入门简介</h1><h2 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594300138187&di=2f6d77bc347e6aaf90a441da3af18926&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201508%2F16%2F20150816193114_4wAdY.jpeg" alt></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/09/2020.7.9%E6%9F%A5%E7%9C%8BHexo%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/09/Sass%E5%9F%BA%E7%A1%80/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/09/Sass%E5%9F%BA%E7%A1%80/" class="post-title-link" itemprop="url">Sass基础</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-09 12:51:42 / 修改时间：18:04:33" itemprop="dateCreated datePublished" datetime="2020-07-09T12:51:42+08:00">2020-07-09</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/HTML%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index"><span itemprop="name">HTML基础</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>5 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Sass基础"><a href="#Sass基础" class="headerlink" title="Sass基础"></a>Sass基础</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/09/Sass%E5%9F%BA%E7%A1%80/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/07/09/2020.7.9%E6%9F%A5%E7%9C%8BHexo%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/" rel="prev" title="2020.7.9查看Hexo官方文档">
+      <i class="fa fa-chevron-left"></i> 2020.7.9查看Hexo官方文档
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
   
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/08/%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/08/%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D/" class="post-title-link" itemprop="url">浅拷贝和深拷贝</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-08 18:27:52 / 修改时间：18:29:28" itemprop="dateCreated datePublished" datetime="2020-07-08T18:27:52+08:00">2020-07-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/JS%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index"><span itemprop="name">JS基础</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2.9k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><ul>
-<li><p>浅拷贝：只拷贝最外面一层的数据；更深层次的对象，只拷贝引用。</p>
-</li>
-<li><p>深拷贝：拷贝多层数据；每一层级别的数据都会拷贝。</p>
-</li>
-</ul>
-<p><strong>总结</strong>：</p>
-<p>拷贝引用的时候，是属于<strong>传址</strong>，而非<strong>传值</strong>。关于传值和传址的区别，是很基础的内容，详见《JavaScript 基础/对象简介.md》这篇文章。</p>
-<p>深拷贝会把对象里<strong>所有的数据</strong>重新复制到新的内存空间，是最彻底的拷贝。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/08/%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/08/Node.js-%E5%88%9D%E5%AD%A601/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/08/Node.js-%E5%88%9D%E5%AD%A601/" class="post-title-link" itemprop="url">Node.js  001</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-08 18:13:48 / 修改时间：18:25:17" itemprop="dateCreated datePublished" datetime="2020-07-08T18:13:48+08:00">2020-07-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Node-js/" itemprop="url" rel="index"><span itemprop="name">Node.js</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.7k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <hr>
-<p>简单单的说 Node.js 就是运行在<strong>服务端的 JavaScript</strong>。</p>
-<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。</p>
-<p>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。</p>
-<p>学习连接：<a href="https://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank" rel="noopener">https://www.runoob.com/nodejs/nodejs-tutorial.html</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/08/Node.js-%E5%88%9D%E5%AD%A601/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/08/233/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/08/233/" class="post-title-link" itemprop="url">233</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-08 17:17:55 / 修改时间：17:22:14" itemprop="dateCreated datePublished" datetime="2020-07-08T17:17:55+08:00">2020-07-08</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>0</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="/2020/07/08/233/download.jpg" alt></p>
-<p><img src="/2020/07/08/233/555.jpg" alt></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/08/233/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/08/%E8%A7%A3%E5%86%B3HEXO%E7%BD%91%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%8A%A0%E8%BD%BD/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/08/%E8%A7%A3%E5%86%B3HEXO%E7%BD%91%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%8A%A0%E8%BD%BD/" class="post-title-link" itemprop="url">解决HEXO网上部署图片如何上传加载</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-08 16:40:11 / 修改时间：18:34:57" itemprop="dateCreated datePublished" datetime="2020-07-08T16:40:11+08:00">2020-07-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/" itemprop="url" rel="index"><span itemprop="name">hexo网站部署</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>hexo加载博客，由于博客是markdown格式，里面对于图片的引用是本机的<strong>绝对地址</strong>，</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/08/%E8%A7%A3%E5%86%B3HEXO%E7%BD%91%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%8A%A0%E8%BD%BD/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/08/2020.7.8%E9%9A%8F%E7%AC%94%EF%BC%88%E6%97%A9%E4%B8%8A%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/08/2020.7.8%E9%9A%8F%E7%AC%94%EF%BC%88%E6%97%A9%E4%B8%8A%EF%BC%89/" class="post-title-link" itemprop="url">2020.7.8随笔（早上）</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-08 13:13:14 / 修改时间：15:44:05" itemprop="dateCreated datePublished" datetime="2020-07-08T13:13:14+08:00">2020-07-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>206</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="win10更新功能"><a href="#win10更新功能" class="headerlink" title="win10更新功能"></a>win10更新功能</h2><p>今天打开pc，发现更新win10，看了看说明，挺长的</p>
-<p>总结下个人绝对还可以的新功能,具体可以打开官方发布的更新详情去了解</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/08/2020.7.8%E9%9A%8F%E7%AC%94%EF%BC%88%E6%97%A9%E4%B8%8A%EF%BC%89/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/07/2020.7.7%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/07/2020.7.7%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/" class="post-title-link" itemprop="url">2020.7.7随笔记录</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-07 22:45:34 / 修改时间：22:46:41" itemprop="dateCreated datePublished" datetime="2020-07-07T22:45:34+08:00">2020-07-07</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>453</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="随笔记录"><a href="#随笔记录" class="headerlink" title="随笔记录"></a>随笔记录</h1><ul>
-<li>img标签中，我们通过<code>vertical-align:middle</code>属性<strong>去掉图片底侧默认的3像素空白缝隙</strong>，还有一种方法可以达到效果，那就是<code>display: block</code>。</li>
-<li><code>s</code>是删除线，<code>i</code>和<code>em</code>是斜体。</li>
-<li>右侧部分文字的结构：ul中放了九个li，用来存放文字。代码快捷键是<code>ul&gt;li*9</code>（符号<code>&gt;</code>是包含的关系）。</li>
-<li></li></ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/07/2020.7.7%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/07/01-JS%E7%AE%80%E4%BB%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
-      <meta itemprop="name" content="Gip886">
-      <meta itemprop="description" content="为了更美好的明天而战">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GipBaby270's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/07/07/01-JS%E7%AE%80%E4%BB%8B/" class="post-title-link" itemprop="url">01-JS简介</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-07-07 19:10:04 / 修改时间：19:17:57" itemprop="dateCreated datePublished" datetime="2020-07-07T19:10:04+08:00">2020-07-07</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/JS%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index"><span itemprop="name">JS基础</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>6.9k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>6 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="JavaScript背景"><a href="#JavaScript背景" class="headerlink" title="JavaScript背景"></a>JavaScript背景</h2><p>Web前端有三层：</p>
-<ul>
-<li><p>HTML：从语义的角度，描述页面<strong>结构</strong></p>
-</li>
-<li><p>CSS：从审美的角度，描述<strong>样式</strong>（美化页面）</p>
-</li>
-<li><p>JavaScript：从交互的角度，描述<strong>行为</strong>（实现业务逻辑和页面控制）</p></li></ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/07/07/01-JS%E7%AE%80%E4%BB%8B/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
 
 
 
@@ -1261,6 +478,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#字面量：数字和字符串"><span class="nav-number">1.</span> <span class="nav-text">字面量：数字和字符串</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">1.1.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量的概念"><span class="nav-number">2.</span> <span class="nav-text">变量的概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量的声明和赋值"><span class="nav-number">3.</span> <span class="nav-text">变量的声明和赋值</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#变量的声明-变量的定义"><span class="nav-number">3.1.</span> <span class="nav-text">变量的声明&#x2F;变量的定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量的声明-定义（ES6）"><span class="nav-number">3.2.</span> <span class="nav-text">变量的声明&#x2F;定义（ES6）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量的赋值"><span class="nav-number">3.3.</span> <span class="nav-text">变量的赋值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量的初始化"><span class="nav-number">3.4.</span> <span class="nav-text">变量的初始化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量声明和赋值的补充"><span class="nav-number">4.</span> <span class="nav-text">变量声明和赋值的补充</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#修改变量的值"><span class="nav-number">4.1.</span> <span class="nav-text">修改变量的值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同时声明多个变量"><span class="nav-number">4.2.</span> <span class="nav-text">同时声明多个变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量声明的几种特殊情况"><span class="nav-number">4.3.</span> <span class="nav-text">变量声明的几种特殊情况</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量的命名规范"><span class="nav-number">5.</span> <span class="nav-text">变量的命名规范</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标识符、关键字、保留字"><span class="nav-number">6.</span> <span class="nav-text">标识符、关键字、保留字</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#标识符"><span class="nav-number">6.1.</span> <span class="nav-text">标识符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关键字"><span class="nav-number">6.2.</span> <span class="nav-text">关键字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#保留字"><span class="nav-number">6.3.</span> <span class="nav-text">保留字</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#举例"><span class="nav-number">7.</span> <span class="nav-text">举例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我的公众号"><span class="nav-number">8.</span> <span class="nav-text">我的公众号</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
