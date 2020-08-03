@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>git关联远端仓库 vscode</title>
+      <link href="/2020/08/03/git%E5%85%B3%E8%81%94%E8%BF%9C%E7%AB%AF%E4%BB%93%E5%BA%93%20vscode/"/>
+      <url>/2020/08/03/git%E5%85%B3%E8%81%94%E8%BF%9C%E7%AB%AF%E4%BB%93%E5%BA%93%20vscode/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/08/03/r1pxAqz72bZB4Es.jpg" alt></p><h1 id="git关联远端仓库-vscode"><a href="#git关联远端仓库-vscode" class="headerlink" title="git关联远端仓库 vscode"></a>git关联远端仓库 vscode</h1><p>1、将代码放到码云</p><ul><li>到码云里新建一个仓库，完成后码云会有一个命令教程按上面的来就行了</li><li>码云中的使用教程：</li></ul><p>Git 全局设置:</p> <a id="more"></a><p>git config –global user.name “成长中的小牛”</p><p>git config –global user.email “<a href="mailto:1208984024@qq.com">1208984024@qq.com</a>“</p><p>创建 git 仓库:</p><p>mkdir zhiwenxitong</p><p>cd zhiwenxitong</p><p>git init</p><p>touch README.md</p><p>git add README.md</p><p>git commit -m “first commit”</p><p>git remote add origin <a href="https://git.oschina.net/pengjunhao/zhiwenxitong.git" target="_blank" rel="noopener">https://git.oschina.net/pengjunhao/zhiwenxitong.git</a></p><p>git push -u origin master</p><p>已有项目?</p><p>cd existing_git_repo</p><p>git remote add origin <a href="https://git.oschina.net/pengjunhao/zhiwenxitong.git" target="_blank" rel="noopener">https://git.oschina.net/pengjunhao/zhiwenxitong.git</a></p><p>git push -u origin master</p><hr><p>下面说下详细的本地操作步骤：</p><ul><li>1、用vs打开你的项目文件夹</li></ul><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201153132662-586980552.png" alt="img"></p><hr><ul><li>2、配置git</li></ul><p>　　打开Git Bash输入以下命令</p><p>　　如果还没输入全局配置就先把这个全局配置输入上去</p><p>Git 全局设置:</p><p>git config </p><p>–global user.name “pjh” </p><p>git config –global user.email “<a href="mailto:123456789@qq.com">123456789@qq.com</a>“</p><p>　　然后开始做提交代码到码云的配置</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd d:&#x2F;wamp&#x2F;www&#x2F;mall360&#x2F;wap              &#x2F;&#x2F;首先指定到你的项目目录下</span><br></pre></td></tr></table></figure><p>git init</p><p>touch README.md</p><p>git add README.md</p><p>git commit -m “first commit”</p><p>git remote add origin <a href="https://git.oschina.net/pengjunhao/zhiwenxitong.git" target="_blank" rel="noopener">https://git.oschina.net/pengjunhao/zhiwenxitong.git</a> //仓库的url</p><p>git push -u origin master //提交到你的仓库</p><p>　　正常情况下上面的命令执行完成后，本地文件夹会有一个隐藏的.git文件夹，云端你的仓库里应该会有一个README.md文件。</p><hr><ul><li>3、在vscode中提交代码到仓库</li></ul><p>　　回到vs code打开git工作区就会看到所有代码显示在这里</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201154814834-1134939768.png" alt="img"></p><p>点击+号，把所有文件提交到暂存区。</p><p>然后打开菜单选择–提交已暂存的</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201155023724-1322104252.png" alt="img"></p><p>然后按提示随便在消息框里输入一个消息，再按ctrl+enter提交</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201155202834-327778020.png" alt="img"></p><p>然后把所有暂存的代码push云端，</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201160939146-982866213.png" alt="img"></p><p>点击后，会弹出让你输入账号密码，把你托管平台的账号密码输入上去就行了。。。</p><p>不出问题的话你整个项目就会提交到云端上了。</p><p>在vs中每次更新代码都会要输入账号密码，方便起见，可以配置一下让GIT记住密码账号。</p><p>git config –global credential.helper store  //在Git Bash输入这个命令就可以了</p><hr><ul><li>4、同步代码</li></ul><p>　　这里说下平时修改代码后提交到云端的使用，和本地代码和云端同步</p><p>　　随便打开一个文件，添加一个注释</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201162825334-679253344.png" alt="img"></p><p>可以看到git图标有一个提示，打开git工作区可以看到就是修改的这个文件</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201162929693-967877373.png" alt="img"></p><p>然后点击右侧的+号，把他暂存起来。</p><p>再在消息框里输入消息，按ctrl+enter提交暂存</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201163128349-1615861863.png" alt="img"></p><p>再点击push提交，代码就提交到云端了。</p><p><img src="https://images2015.cnblogs.com/blog/717286/201612/717286-20161201163237740-1822824997.png" alt="img"></p><p>打开 码云就可以看到了。。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>04-同源和跨域</title>
       <link href="/2020/07/28/04-%E5%90%8C%E6%BA%90%E5%92%8C%E8%B7%A8%E5%9F%9F/"/>
       <url>/2020/07/28/04-%E5%90%8C%E6%BA%90%E5%92%8C%E8%B7%A8%E5%9F%9F/</url>
